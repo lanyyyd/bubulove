@@ -40,7 +40,7 @@ noButton.addEventListener("click", function() {
     }
 
     // 图片变化（前 5 次变化）
-    if (clickCount === 1) mainImage.src = "ima/shocked.gif"; // 震惊
+    if (clickCount === 1) mainImage.src = "img/shocked.gif"; // 震惊
     if (clickCount === 2) mainImage.src = "img/think.gif";   // 思考
     if (clickCount === 3) mainImage.src = "img/angry.gif";   // 生气
     if (clickCount === 4) mainImage.src = "img/crying1.gif";  // 哭
